@@ -26,7 +26,7 @@ public class ProviderController {
     public ResponseEntity<WelcomeResponse> welcome() {
         // Pattern applied here: Builder Pattern
         WelcomeResponse response = WelcomeResponse.builder()
-                .candidateName("Bienvenido Candidato 02")
+                .candidateName("Bienvenido Candidato 01")
                 .version("0.0.1")
                 .build();
         return ResponseEntity.ok(response);
